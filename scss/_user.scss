@@ -1,0 +1,74 @@
+.container_user{
+  display: flex;
+  flex-direction: column-reverse;
+}
+.profile_info{
+  background: $pink2;
+  transform: translate(0, -20%);
+}
+.menu_user a.active{
+  background: $pink2;
+}
+.menu_user a:hover:not(.active){
+  background: $pink2;
+}
+.card_user{
+  padding: 0 15px;
+}
+.profile_info p{
+  font-size: 25px/$size*1rem;
+  color: $white;
+  padding: 15px 20px;
+}
+.idprofile{
+  border-collapse: collapse;
+}
+.idprofile input[type=text],
+.idprofile textarea{
+  width: 100%;
+  resize: vertical;
+}
+.idprofile tr{
+  text-align: left;
+}
+.idprofile td input{
+  outline: none;
+  border: none;
+  border-bottom: 1px solid $text;
+  padding: 10px 0;
+}
+.btn_red{
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+}
+.btn_red a{
+  background: $pink2;
+  color: $white;
+  padding: 15px 30px;
+}
+.photo_user .photo img{
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  transform: translate(0, -30%);
+}
+.photo_user{
+  text-align: center;
+  margin-bottom: 200px;
+}
+.photo_user .text{
+  color: $text;
+}
+.photo_user p{
+  font-size: 20px/$size*1rem;
+  padding: 15px 10px;
+}
+.photo_user h2{
+  font-weight: bold;
+  font-size: 25px/$size*1rem;
+  margin: 0 auto;
+}
+.footer_user{
+  margin: 40px 0;
+}

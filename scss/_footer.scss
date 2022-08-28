@@ -1,0 +1,19 @@
+.footer{
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 30px;
+  border-top: 2px solid $text;
+}
+.footer_menu ul{
+  display: flex;
+}
+.footer_menu ul li{
+  padding: 10px 25px;
+  font-weight: bold;
+}
+.footer_menu a:hover{
+  color: $text;
+}
+.love{
+  color: $text;
+}

@@ -1,0 +1,160 @@
+.main{
+  background: $lightgrey;
+}
+.main .title{
+  display: none;
+}
+.container{
+  margin-top: 80px/$size*1rem;
+}
+.container_info{
+  margin: 20px auto;
+}
+.title{
+  padding: 35px 40px;
+}
+.row{
+  margin-bottom: 50px;
+}
+.row_card{
+  background: $white;
+  box-shadow: 4px 4px 5px 0px rgba(50, 50, 50, 0.75);
+}
+.space{
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 1px/$size*1rem solid #ddd;
+}
+.space .text p{
+  font-size: 14px/$size*1rem;
+  padding: 15px 0 0;
+  text-align: right;
+  color: $text;
+}
+.space .text h3{
+  font-size: 30px/$size*1rem;
+  font-weight: normal;
+  color: $text;
+}
+.space img{
+  background: $green;
+  width: 100px;
+  height: 100px;
+  padding: 25px;
+  transform: translate(0%, -25%);
+}
+.text_info p{
+  margin-left: 10px;
+}
+.text_info{
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  color: $text;
+}
+.text_info img{
+  width: 10px;
+  height: 10px;
+}
+.space_yellow img{
+  background: $yellow;
+}
+.space_blue img{
+  background: $blue;
+}
+.space_blue .text h3{
+  text-align: right;
+}
+.space_red img{
+  background: $red;
+}
+.grafic{
+  padding: 0 20px;
+}
+.grafic .text{
+  padding: 0 20px;
+}
+.grafic img{
+  background: $green;
+  padding: 20px;
+  transform: translate(0, -15%);
+}
+.grafic .text p{
+  font-size: 14px/$size*1rem;
+  color: $text;
+  padding-bottom: 15px;
+  border-bottom: 1px/$size*1rem solid #ddd;
+}
+.grafic .text h3{
+  font-size: 30px/$size*1rem;
+  font-weight: normal;
+  color: $text;
+}
+.grafic_yellow img{
+  background: $yellow;
+}
+.grafic_blue img{
+  background: $blue;
+}
+.card_table{
+  padding: 15px 25px;
+}
+.table{
+  transform: translate(0, -50%);
+}
+.table ul{
+  display: flex;
+  align-items: center;
+  background: $yellow;
+  color: $white;
+  padding-left: 15px;
+}
+.little_menu li a{
+  display: flex;
+  align-items: center;
+  padding: 15px;
+}
+.little_menu a:hover{
+  background: $yellow2;
+}
+.little_menu a.active{
+  background: $yellow2;
+}
+.little_menu li{
+  padding: 10px;
+}
+.little_menu li p{
+  margin-left: 5px;
+}
+.edit img{
+  width: 15px;
+  height: 15px;
+}
+.table_info table{
+  border-collapse: collapse;
+  width: 100%;
+  text-align: center;
+}
+.table_info table td{
+  padding: 10px 15px;
+}
+.table_info table .line_down{
+  border-bottom: 1px/$size*1rem solid #ddd;
+}
+.list_table .table p{
+  background: $blue;
+  color: $white;
+  font-size: 30px/$size*1rem;
+  padding: 0 15px;
+}
+.idname th,
+td{
+  padding: 10px 15px;
+}
+tr{
+  color: rgb(8, 184, 228);
+}
+td{
+  color: $text;
+  font-size: 16px;
+}

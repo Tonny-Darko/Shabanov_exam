@@ -1,0 +1,14 @@
+@import 'normalize';
+@import 'variables';
+
+@import 'aside';
+@import 'main';
+@import 'footer';
+
+@import 'user';
+
+@import 'media';
+
+body{
+  background: $lightgrey;
+}
